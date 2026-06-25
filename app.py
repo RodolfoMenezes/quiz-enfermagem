@@ -25,40 +25,55 @@ st.markdown("""
             transform: scale(1.02);
         }
         .stRadio label { font-size: 18px; padding: 8px; }
+        
+        /* CAIXA DE ACERTO - VERDE ESCURO */
         .feedback-certo { 
-            background-color: #d4edda; 
+            background-color: #0d4a1e; 
             padding: 15px; 
             border-radius: 10px; 
-            border-left: 6px solid #28a745;
+            border-left: 6px solid #2ecc71;
             margin-top: 15px;
+            color: #ffffff;
+            font-size: 16px;
         }
+        
+        /* CAIXA DE ERRO - VERMELHO ESCURO */
         .feedback-errado {
-            background-color: #f8d7da; 
+            background-color: #5c1010; 
             padding: 15px; 
             border-radius: 10px; 
-            border-left: 6px solid #dc3545;
+            border-left: 6px solid #e74c3c;
             margin-top: 15px;
+            color: #ffffff;
+            font-size: 16px;
         }
+        
+        /* CAIXA DE EXPLICAÇÃO - AZUL MUITO ESCURO (quase preto) */
         .explicacao-box {
-            background-color: #e3f2fd; 
+            background-color: #0a1628; 
             padding: 15px; 
             border-radius: 10px; 
-            border-left: 6px solid #0d6efd;
+            border-left: 6px solid #3498db;
             margin-top: 15px;
+            color: #ffffff;
+            font-size: 16px;
         }
+        
         .high-score-box {
-            background-color: #fff3cd;
+            background-color: #2c2c2c;
             padding: 15px;
             border-radius: 10px;
-            border: 2px solid #ffc107;
+            border: 2px solid #f1c40f;
             text-align: center;
             margin-bottom: 20px;
+            color: #f1c40f;
         }
         .historico-box {
-            background-color: #e8e8e8;
+            background-color: #2c2c2c;
             padding: 10px;
             border-radius: 10px;
             text-align: center;
+            color: #ffffff;
         }
     </style>
 """, unsafe_allow_html=True)
